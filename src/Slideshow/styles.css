@@ -1,7 +1,12 @@
 
 .slideShow {
     /* To get an horizontal slideshow*/
+    width: 100%;
+    background-color: black;
     display: flex;
-    flex-direction: row;
+
 }
 
+.singleSlide {
+    width: 35vw;
+}

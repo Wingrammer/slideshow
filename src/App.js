@@ -5,9 +5,15 @@ import Slideshow from './Slideshow/Slideshow';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="centeredFlexBox">
+
+        <div className="leftBox">
+          Left Box
+        </div>
+        <div className="rightBox">
           <Slideshow/>
-      </header>
+        </div>        
+      </div>
     </div>
   );
 }
