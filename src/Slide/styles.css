@@ -1,0 +1,14 @@
+.slide {
+    /*Make the slide occupy the desired portion of the screen*/
+    width: 100vw;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img{
+    width: 1000px;
+    left: 50%;
+    top: 50%;
+}

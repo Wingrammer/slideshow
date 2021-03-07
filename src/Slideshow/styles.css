@@ -1,0 +1,7 @@
+
+.slideShow {
+    /* To get an horizontal slideshow*/
+    display: flex;
+    flex-direction: row;
+}
+
